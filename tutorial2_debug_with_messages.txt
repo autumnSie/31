@@ -1,0 +1,21 @@
+Step-by-Step Tutorial 2: Debugging with Error Messages
+
+Step 1: Read the Error Message Carefully
+- Look at the type of error (e.g., NameError, TypeError) and the line number.
+
+Step 2: Understand the Message
+- Messages like “undefined variable” or “unsupported operand” tell you what’s wrong.
+
+Step 3: Use Print Statements or Logs
+- Add `print()` statements before the error line to see variable values.
+
+Step 4: Fix the Identified Problem
+Example:
+Error: `NameError: name 'total' is not defined`
+Code: `print(total)`
+Fix: Define `total = 0` before using it.
+
+Step 5: Re-run the Code
+- After applying the fix, rerun the code to confirm the error is gone.
+
+Now you can use messages to fix many common bugs.
